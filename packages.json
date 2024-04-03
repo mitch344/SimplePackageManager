@@ -1,0 +1,30 @@
+{
+  "packages": [
+    {
+      "name": "example-package",
+      "version": "1.0.0",
+      "description": "An example package",
+      "downloadURL": "/Users/test/Downloads/packages/example-package.zip",
+      "hash": "123456abcdef123456abcdef123456abcdef123456abcdef123456abcdef123456",
+      "dependencies": [],
+      "install_script": {
+        "script": "install.py",
+        "type": "python"
+      }
+    },
+    {
+      "name": "another-package",
+      "version": "1.0.1",
+      "description": "Another example package",
+      "downloadURL": "http://example.com/another-package.zip",
+      "hash": "abcdef123456abcdef123456abcdef123456abcdef123456abcdef123456abcdef",
+      "dependencies": [
+        "example-package"
+      ],
+      "install_script": {
+        "script": "install.ps1",
+        "type": "powershell"
+      }
+    }
+  ]
+}

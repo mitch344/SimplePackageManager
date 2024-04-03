@@ -1,0 +1,6 @@
+{
+  "sources": [
+    "http://example.com/packages.json",
+    ".\\packages.json"
+  ]
+}
