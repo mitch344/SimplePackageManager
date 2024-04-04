@@ -22,7 +22,7 @@ This is a simple package manager template that can be used as a starting point f
 
 3. Run the package manager:
 
-```python package_manager.py```
+```python PackageManagerCLI.py```
 
 ## Usage
 
